@@ -1,9 +1,9 @@
 Introduction
 ------------
 
-This proof-of-concept based on ndpireader.c reads a pcap file and inspects each packet using a deep packet inspection library nDPI from NTOP
+This proof-of-concept library based on ndpireader reads a pcap file and inspects each packet using a deep packet inspection library nDPI from [NTOP](http://ntop.org)
 
-The program consists of a library build on top nDPI. This library is programmed in C and it is called ```libndpilua```. This library is aimed to be used from a Lua program.
+This library is aimed to be used from a Lua program.
 
 The ```main.lua``` file reads a pcap file and inspects each packet. For each successfully associated packet and action is triggered. The actions are defined as Lua functions and follows this template:
 
@@ -21,7 +21,7 @@ Where:
 Dependencies
 ------------
 
-This program depends on libndpi. nDPI is a Deep Packet Inspection library, programmed in C.
+This program depends on libndpi 1.x. nDPI is a Deep Packet Inspection library, programmed in C.
 
 Headers of nDPI are at ```include/```, and an already build library is at ```lib/```.
 
