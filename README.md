@@ -1,7 +1,7 @@
 Introduction
 ------------
 
-This proof-of-concept lua binding based on ndpireader and nDPI from [NTOP](http://ntop.org)
+Proof-of-Concept lua binding based on ndpireader and nDPI from [NTOP](http://ntop.org)
 
 This library is aimed to be used from a Lua program.
 
