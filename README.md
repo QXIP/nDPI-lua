@@ -1,7 +1,7 @@
 Introduction
 ------------
 
-This proof-of-concept library based on ndpireader reads a pcap file and inspects each packet using a deep packet inspection library nDPI from [NTOP](http://ntop.org)
+This proof-of-concept lua binding based on ndpireader and nDPI from [NTOP](http://ntop.org)
 
 This library is aimed to be used from a Lua program.
 
