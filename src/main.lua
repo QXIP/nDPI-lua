@@ -39,8 +39,10 @@ local L7PROTO = {
 }
 
 function onProtocol(id, packet)
-   io.write("Proto: ")
-   print(L7PROTO[id+1])
+   if id >= 2 then
+	   io.write("Proto: ")
+	   print(L7PROTO[id+1])
+   end
 end
 
 -- Register protocol handler
