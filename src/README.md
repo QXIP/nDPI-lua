@@ -1,7 +1,7 @@
 Introduction
 ------------
 
-This proof-of-concept based on ndpireader.c reads a pcap file and inspects each packet using a deep packet inspection library nDPI from NTOP
+This program reads a pcap file and inspects each packet using a deep packet inspection library called nDPI. It is a proof of concept program.
 
 The program consists of a library build on top nDPI. This library is programmed in C and it is called ```libndpilua```. This library is aimed to be used from a Lua program.
 
