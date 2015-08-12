@@ -2,10 +2,12 @@
 -- Usage: luajit main.lua /path/to/file.pcap
 
 local arg = ...
-local pfile = "pcap/lamernews.pcap"
+local pfile = ""
 
-if not arg==nil then
-   local pfile = arg
+if arg==nil then
+   pfile = "pcap/lamernews.pcap"
+else
+   pfile = arg
 end
 
 print("Loading " .. pfile )
