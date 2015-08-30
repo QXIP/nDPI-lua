@@ -1,3 +1,7 @@
+<p align="center">
+<img src="http://www.ntop.org/wp-content/uploads/2015/05/ntop.png" alt="NTOP">
+</p>
+
 # nDPI-lua
 
 Proof-of-Concept lua binding based on ndpireader and nDPI from [NTOP](http://ntop.org)
